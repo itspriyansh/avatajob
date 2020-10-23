@@ -3320,3 +3320,16 @@ a.close-styler {
         text-align: center;
     }
 }
+
+.d-none {
+    display: none;
+}
+
+.d-show {
+    display: block;
+}
+
+.border {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+}

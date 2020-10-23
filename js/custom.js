@@ -276,4 +276,17 @@ jQuery(function($) {
 
     $('#back-to-top').tooltip('hide');
 
+    $('.read-more').click(function() {
+        let parent = $(this).parent();
+        let div = parent.children().last();
+        if(div.hasClass('d-none')) {
+            div.removeClass('d-none');
+            div.addClass('d-show');
+            $(this).html('Read Less');
+        } else {
+            div.removeClass('d-show');
+            div.addClass('d-none');
+            $(this).html('Read More');
+        }
+    });
 });
