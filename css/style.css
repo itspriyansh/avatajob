@@ -436,7 +436,7 @@ blockquote {
     margin-left: -75px;
     top: 50%;
     height: 3px;
-    background: #dedede;
+    /* background: #dedede; */
     position: absolute;
 }
 
@@ -3319,6 +3319,9 @@ a.close-styler {
     #services .tab-pane > * {
         text-align: center;
     }
+    .d-sm-none {
+        display: none;
+    }
 }
 
 .d-none {
@@ -3333,3 +3336,11 @@ a.close-styler {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.3);
 }
+ .service-image > img {
+     border-radius: 50%;
+     width: 50%;
+ }
+
+ .team-icon {
+     font-size: 12em;
+ }
